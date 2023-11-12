@@ -1,6 +1,7 @@
 Carnites Tacos
 Fried Chicken
 
-Func generateRandomNumber() -> Int {
-	Double.ramdon(in: 1..<10)
+
+Func generateRandomNumber(upperValue: Int) -> Int {
+	Int.ramdon(in: 1..<upperValue)
 }
